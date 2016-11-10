@@ -12,7 +12,7 @@ body {
 }
 .invalid{
     border:1px solid #ff0000;
-    background:#ff9191;
+    background:#ff9191; 
 }
 
 .input-group{
