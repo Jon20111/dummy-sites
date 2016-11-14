@@ -68,6 +68,9 @@ function reset() {
     }
 
     getE('messages').innerHTML = '';
+
+    getE('timezone').value = '';
+    getE('terms').checked = false;
 }
 
 function getE(id) {
