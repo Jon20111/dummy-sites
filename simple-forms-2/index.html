@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Assignment 11</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body>
+        <section id="messages">
+        </section>
+        <form class="form-elements" method="POST" action="post.html">
+            <div class="input-group">
+                <label for="firstName">First Name</label>
+                <input type="text" name="firstName" id="firstName" placeholder="First Name" maxlength="10" />
+            </div>
+            <div class="input-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
+            </div>
+            <div class="input-group">
+                <label for="Website">Website</label>
+                <input type="url" name="" id="Website" placeholder="Website" />
+            </div>
+            <div class="input-group">
+                <label for="age">Age</label>
+                <input type="number" name="" id="age" placeholder="Age" min="10" max="100"/>
+            </div>
+            <div class="input-group">
+                <label for="search">Search Name</label>
+                <input type="search" name="" id="search" placeholder="Search" />
+            </div>
+            <div class="input-group">
+                <label for="emailAddress">Email Address</label>
+                <input type="email" name="emailAddress" id="emailAddress" placeholder="Email Address" />
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password" required />
+            </div>
+            <div class="input-group">
+                <label for="password">Confirm Password</label>
+                <input type="password" name="passwordConfirm" id="passwordConfirm" placeholder="Confirm Password" />
+            </div>
+          <div class="check-group">
+                <label for="terms">
+                <input type="checkbox" name="terms" id="terms"/>
+                    Accept Terms and Conditions</label>
+            </div>
+            <section class="control-panel">
+                <button type="submit" id="btnSubmit">Submit</button>
+                <button id="btnReset">Reset</button>
+            </section>
+        </form>
+        <!--<script src="scripts/main.js"></script>-->
+    </body>
+
+</html>
