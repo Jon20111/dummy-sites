@@ -3,7 +3,7 @@
 }
 
 body {
-    width:500px;
+    width:960px;
     margin:20px auto;
     font-size:20px;
 }
@@ -46,4 +46,9 @@ body {
 }
 .invalid:-moz-placeholder { /* Firefox 18- */
   color: #ff0000;
+}
+
+.column{
+    width:49%;
+    float:left;
 }
