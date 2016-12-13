@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     //List Titles
-    var appendUrl = 'http://jsonplaceholder.typicode.com/posts?userId=1';
+    var appendUrl = 'https://jsonplaceholder.typicode.com/posts?userId=1';
 
     $.get(appendUrl, function (result) {
         var appendElm = $('#append');
@@ -12,7 +12,7 @@ $(document).ready(function () {
     });
 
     //
-    var prependUrl = 'http://jsonplaceholder.typicode.com/photos?albumId=1';
+    var prependUrl = 'https://jsonplaceholder.typicode.com/photos?albumId=1';
 
     $.get(prependUrl, function (result) {
         var prependElm = $('#prepend');
