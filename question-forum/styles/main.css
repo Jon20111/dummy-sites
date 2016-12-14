@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box
+}
+
+.container{
+    width:1080px;
+    margin:0 auto;
+}
+.navigation > nav{
+    overflow:hidden;
+    border:1px solid black;
+    border-left:none;
+    border-right:none;
+
+}
+
+.navigation > nav > a{
+    display:block;
+    float:left;
+    padding:20px;
+}
+
+
+.question{
+    clear:both;
+    overflow:hidden;
+}
+
+.user-info {
+    float:right;
+    width:200px;
+}
+
+.user-info h2{
+    margin:0;
+}
+.user-info img{
+    float:left;
+    margin:5px;
+}
+
+.user-info h3{
+    margin:0;
+}
+
+.answers{
+    float:left;
+    width:75%;
+}
+aside{
+    width:25%;
+    float:right;
+}
+
+.container > footer{
+    clear:both;
+}
