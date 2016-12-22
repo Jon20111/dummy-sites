@@ -1,0 +1,23 @@
+﻿{
+  "css": {
+    "src": "testfiles/content/sass/main.scss",
+    "dist": "testfiles/dist/",
+    "distfilename": "main",
+    "workingdirectory": [
+      "sweepstakes/**/*.css",
+      "question-forum/**/*.css"
+    ]
+  },
+  "html":{
+    "workingdirectory":[
+      "sweepstakes/**/*.html",
+      "question-forum/**/*.html"
+    ]
+  },
+  "js": {
+    "workingdirectory": [
+      "sweepstakes/**/*.js",
+      "question-forum/**/*.js"
+    ]
+  }
+}

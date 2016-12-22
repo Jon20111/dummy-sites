@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ccc;
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.b1 {
+    background: #fff;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.n {
+    background: #a00;
+}
+
+.nn {
+    padding: 20px;
+}
+
+.n h1 {
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.n h2 {
+    color: #fff;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.n .m {
+    background: #800000;
+    float: left;
+    width: 100%;
+}
+
+.m li {
+    float: left;
+}
+
+.m a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 20px;
+}
+
+.m .s {
+    float: right;
+    margin-right: 10px;
+    padding: 8px 0;
+}
+
+.m .s input {
+    border: none;
+    background: #aa0000;
+    color: #fff;
+}
+
+.m a:hover {
+    text-decoration: underline;
+    background: #700000;
+}
+
+.f2 {
+    float: left;
+    width: 100%;
+    background: #999999;
+}
+
+.f2 li {
+    float: left;
+}
+
+.f2 li a {
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    padding: 10px 20px;
+}
+
+.f .i {
+    padding: 20px;
+    clear: both;
+}
+
+.f .i h1 {
+    text-align:center;
+    }
+.f .i img {
+    display: block;
+    float: left;
+}
+
+.f .i p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.f form {
+    clear: both;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.c1 {
+    padding: 20px;
+    width: 50%;
+    float: left;
+}
+
+.c2 {
+    padding: 20px;
+    width: 50%;
+    float: right;
+}
+
+.t {
+    clear: both;
+}
+
+.f label,
+.f input,
+.f select,
+.f button {
+    font-size: 18px;
+}
+
+.f .fe {
+    padding: 10px;
+    margin:15px 0;
+    clear: both;
+}
+
+.fe label {
+    float: left;
+    width: 30%;
+}
+
+.fe input,
+.fe select,
+.fe textarea {
+    border: 1px solid #aa0000;
+    color: #aa0000;
+    float: right;
+    padding: 10px;
+    width: 70%;
+}
+
+.b, .t{
+    padding:15px 0;
+    text-align:center;
+}
+
+.f{
+    padding-bottom:20px;
+}
+#messages ul{
+    list-style-type:disc;
+    color:#a00;
+    margin-left:30px;
+}
+
+.invalid{
+    border:1px solid #ff0000;
+    background:#ff9191; 
+}
