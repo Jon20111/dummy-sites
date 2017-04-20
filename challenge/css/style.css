@@ -73,4 +73,16 @@
   .callouts article {
     width: 100%;
   }
+ .main-header .logo{
+  float:none;
+  text-align:center;
+  }
+  .main-header nav{
+  float:none;
+  }
+  
+.main-header nav ul li {
+display:block;
+padding:10px;
+}
 }
