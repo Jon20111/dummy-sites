@@ -40,6 +40,9 @@ nav ul {
     font-size: 20px
 }
 
+nav li  {
+    display:inline-block;
+}
 nav li a {
     padding-right: 20px
 }
@@ -47,7 +50,7 @@ nav li a {
 footer nav,
 header nav,
 section {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto
 }
 .image-gallery{
